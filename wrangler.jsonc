@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hufs-room",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": { "not_found_handling": "single-page-application", "run_worker_first": ["/api/*"] },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "hufs_room", "database_id": "local-placeholder", "migrations_dir": "migrations" }
+  ],
+  "vars": {
+    "REVIEW_AUTO_APPROVE": "true",
+    "FREE_VIEW_LIMIT": "3",
+    "SCHOOL_EMAIL_DOMAIN": ""
+  }
+}
