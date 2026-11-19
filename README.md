@@ -1,5 +1,7 @@
 # 외대원룸 — 모현 대학가 주거생활 순환 커뮤니티 (공모전 시연 MVP)
 
+배포 URL: https://hufs-room.lnh-hello-world.workers.dev (Cloudflare Workers + D1, 2026-11-20 배포·검증)
+
 제2회 G-앵커 창업 아이디어 경진대회 출품용 작동형 MVP. **모든 건물·후기·가격·인물은 가상 데이터**이며 화면에 상시 `DEMO / 시연용` 표기가 붙는다.
 
 ## 스택

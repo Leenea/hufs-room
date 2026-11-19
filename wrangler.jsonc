@@ -5,7 +5,7 @@
   "compatibility_date": "2026-11-01",
   "assets": { "not_found_handling": "single-page-application", "run_worker_first": ["/api/*"] },
   "d1_databases": [
-    { "binding": "DB", "database_name": "hufs_room", "database_id": "local-placeholder", "migrations_dir": "migrations" }
+    { "binding": "DB", "database_name": "hufs_room", "database_id": "0290b800-a4cd-4552-a240-9b16b83dffe8", "migrations_dir": "migrations" }
   ],
   "vars": {
     "REVIEW_AUTO_APPROVE": "true",
