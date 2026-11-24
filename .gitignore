@@ -6,3 +6,6 @@ dist
 .dev.vars
 seed/seed.sql
 *.log
+.DS_Store
+.claude/
+G_topic2/
